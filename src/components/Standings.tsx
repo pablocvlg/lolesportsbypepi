@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import type { Team, Event } from "../types/Data";
 import { useData } from "../hooks/useData";
 
 const Container = styled.div`
