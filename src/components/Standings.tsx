@@ -27,14 +27,12 @@ export default function Standings({ eventId }: { eventId: string }) {
   if (error) return <Container>{error}</Container>;
   if (!data) return <Container>No data available</Container>;
 
-  // Buscar el evento por id
   const event = data.competitions
     .flatMap(comp => comp.events)
     .find(ev => ev.id === eventId);
 
   if (!event) return <Container>Event not found</Container>;
 
-  // Calcular victorias y derrotas por equipo
   const teamRecord: Record<string, { wins: number; losses: number }> = {};
   event.teams.forEach(team => (teamRecord[team.id] = { wins: 0, losses: 0 }));
 
@@ -48,7 +46,6 @@ export default function Standings({ eventId }: { eventId: string }) {
     }
   });
 
-  // Ordenar equipos por victorias
   const sortedTeams = [...event.teams].sort(
     (a, b) => teamRecord[b.id].wins - teamRecord[a.id].wins
   );

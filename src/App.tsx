@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Analytics } from '@vercel/analytics/react';
 import Home from "./pages/Home";
 import Players from "./pages/Players";
 import Teams from "./pages/Teams";
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/teams" element={<Teams />} />
           <Route path="/matches" element={<Matches />} />
         </Routes>
+        <Analytics />
       </Router>
     </>
   );
