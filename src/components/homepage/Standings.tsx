@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { useData } from "../hooks/useData";
+import { useData } from "../../hooks/useData";
 
 const Container = styled.div`
   padding: 1rem;
@@ -71,16 +71,14 @@ const HeaderScore = styled.div`
   text-transform: uppercase;
 `;
 
-/* layout: left column for rank, right column the card */
 const TeamRow = styled.div`
   display: grid;
   grid-template-columns: 48px 1fr;
   gap: 12px;
   align-items: center;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 `;
 
-/* rank circle like the screenshot */
 const RankCol = styled.div`
   display: flex;
   align-items: center;

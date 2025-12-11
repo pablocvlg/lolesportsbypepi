@@ -1,11 +1,23 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Analytics } from '@vercel/analytics/react';
+import { createGlobalStyle } from 'styled-components';
 import Home from "./pages/Home";
 import Players from "./pages/Players";
 import Teams from "./pages/Teams";
 import Matches from "./pages/Matches";
 import Navbar from "./components/Navbar";
-import { GlobalStyle } from "./GlobalStyle";
+
+const GlobalStyle = createGlobalStyle`
+  html, body, #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+  }
+`;
 
 export default function App() {
   return (

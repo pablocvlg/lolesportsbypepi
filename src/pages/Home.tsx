@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { useData } from "../hooks/useData";
-import BestPlayers from "../components/BestPlayers";
-import Standings from "../components/Standings";
+import BestPlayers from "../components/homepage/BestPlayers";
+import Standings from "../components/homepage/Standings";
 
 const Container = styled.div`
   padding: 2rem;
@@ -12,17 +12,33 @@ const Container = styled.div`
   margin: 0 auto;
 `;
 
+const TitleRow = styled.div`
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+`;
+
 const SectionTitle = styled.h2`
   font-size: 1.8rem;
   font-weight: bold;
-  margin-bottom: 1rem;
-  color: white;
+  margin: 0;
+  color: #13bb91ff;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
 `;
 
 const EventTitle = styled.h3`
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
-  margin-bottom: 1.5rem;
+  margin: 0;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(19, 187, 145, 1);
+`;
+
+const Separator = styled.span`
+  font-size: 1.8rem;
+  font-weight: bold;
   color: white;
 `;
 
@@ -38,12 +54,8 @@ const StandingsWrapper = styled.div`
 `;
 
 const BestPlayersWrapper = styled.div`
-  width: 420px;
+  width: 500px;
   flex-shrink: 0;
-
-  @media (max-width: 1024px) {
-    width: 100%;
-  }
 `;
 
 export default function Home() {
@@ -57,10 +69,13 @@ export default function Home() {
     <Container>
       {data.competitions.map((competition) => (
         <div key={competition.id}>
-          <SectionTitle>{competition.name}</SectionTitle>
           {competition.events.map((event) => (
             <div key={event.id}>
-              <EventTitle>{event.name}</EventTitle> 
+              <TitleRow>
+                <SectionTitle>{competition.name}</SectionTitle>
+                <Separator>/</Separator>
+                <EventTitle>{event.name}</EventTitle>
+              </TitleRow>
               <ContentWrapper>
                 <StandingsWrapper>
                   <Standings eventId="winter2026" />
