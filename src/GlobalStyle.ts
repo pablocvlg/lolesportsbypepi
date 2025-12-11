@@ -1,0 +1,13 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+  html, body, #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000; /* fondo negro global */
+    color: #fff;            /* texto blanco por defecto */
+    font-family: sans-serif;
+  }
+`;

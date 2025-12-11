@@ -1,0 +1,14 @@
+[
+  { "id": "t01", "name": "Fnatic", "abbrev": "FNC", "roster": ["p0101","p0102","p0103","p0104","p0105"] },
+  { "id": "t02", "name": "G2 Esports", "abbrev": "G2", "roster": ["p0201","p0202","p0203","p0204","p0205"] },
+  { "id": "t03", "name": "GIANTX", "abbrev": "GX", "roster": ["p0301","p0302","p0303","p0304","p0305"] },
+  { "id": "t04", "name": "Karmine Corp", "abbrev": "KC", "roster": ["p0401","p0402","p0403","p0404","p0405"] },
+  { "id": "t05", "name": "Karmine Corp Blue", "abbrev": "KCB", "roster": ["p0501","p0502","p0503","p0504","p0505"] },
+  { "id": "t06", "name": "Los Ratones", "abbrev": "LR", "roster": ["p0601","p0602","p0603","p0604","p0605"] },
+  { "id": "t07", "name": "Movistar KOI", "abbrev": "MKOI", "roster": ["p0701","p0702","p0703","p0704","p0705"] },
+  { "id": "t08", "name": "Natus Vincere", "abbrev": "NAVI", "roster": ["p0801","p0802","p0803","p0804","p0805"] },
+  { "id": "t09", "name": "SK Gaming", "abbrev": "SK", "roster": ["p0901","p0902","p0903","p0904","p0905"] },
+  { "id": "t10", "name": "Team BDS", "abbrev": "BDS", "roster": ["p1001","p1002","p1003","p1004","p1005"] },
+  { "id": "t11", "name": "Team Heretics", "abbrev": "TH", "roster": ["p1101","p1102","p1103","p1104","p1105"] },
+  { "id": "t12", "name": "Team Vitality", "abbrev": "VIT", "roster": ["p1201","p1202","p1203","p1204","p1205"] }
+]
