@@ -9,6 +9,7 @@ export interface Team {
   id: string;
   name: string;
   abbrev: string;
+  logo: string;
   players: Player[];
 }
 

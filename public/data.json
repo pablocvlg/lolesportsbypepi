@@ -12,6 +12,7 @@
               "id": "t01",
               "name": "Fnatic",
               "abbrev": "FNC",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1631819669150_fnc-2021-worlds.png",
               "players": [
                 { "id": "p0101", "name": "Oscarinin", "role": "Top", "ratings": [6.5] },
                 { "id": "p0102", "name": "Razork", "role": "Jungle", "ratings": [6.3] },
@@ -24,6 +25,7 @@
               "id": "t02",
               "name": "G2 Esports",
               "abbrev": "G2",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2FG2-FullonDark.png",
               "players": [
                 { "id": "p0201", "name": "BrokenBlade", "role": "Top", "ratings": [6.6] },
                 { "id": "p0202", "name": "SkewMond", "role": "Jungle", "ratings": [6.2] },
@@ -36,6 +38,7 @@
               "id": "t03",
               "name": "GIANTX",
               "abbrev": "GX",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1704790322129_GX.png",
               "players": [
                 { "id": "p0301", "name": "Lot", "role": "Top", "ratings": [6.7] },
                 { "id": "p0302", "name": "ISMA", "role": "Jungle", "ratings": [6.4] },
@@ -48,6 +51,7 @@
               "id": "t04",
               "name": "Karmine Corp",
               "abbrev": "KC",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1704714951336_KC.png",
               "players": [
                 { "id": "p0401", "name": "Canna", "role": "Top", "ratings": [6.7] },
                 { "id": "p0402", "name": "Yike", "role": "Jungle", "ratings": [6.3] },
@@ -60,6 +64,7 @@
               "id": "t05",
               "name": "Karmine Corp Blue",
               "abbrev": "KCB",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2FLFL-KC-logo.png",
               "players": [
                 { "id": "p0501", "name": "Maynter", "role": "Top", "ratings": [6.5] },
                 { "id": "p0502", "name": "Yukino", "role": "Jungle", "ratings": [6.2] },
@@ -72,6 +77,7 @@
               "id": "t06",
               "name": "Los Ratones",
               "abbrev": "LR",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1736206905390_LR1.png",
               "players": [
                 { "id": "p0601", "name": "Baus", "role": "Top", "ratings": [6.6] },
                 { "id": "p0602", "name": "Velja", "role": "Jungle", "ratings": [6.4] },
@@ -84,6 +90,7 @@
               "id": "t07",
               "name": "Movistar KOI",
               "abbrev": "MKOI",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1734012609283_MKOI_FullColor_Blue.png",
               "players": [
                 { "id": "p0701", "name": "Myrwn", "role": "Top", "ratings": [6.5] },
                 { "id": "p0702", "name": "Elyoya", "role": "Jungle", "ratings": [6.3] },
@@ -96,6 +103,7 @@
               "id": "t08",
               "name": "Natus Vincere",
               "abbrev": "NAVI",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1752746833620_NAVI_FullColor.png",
               "players": [
                 { "id": "p0801", "name": "???", "role": "Top", "ratings": [6.7] },
                 { "id": "p0802", "name": "Rhilech", "role": "Jungle", "ratings": [6.4] },
@@ -108,6 +116,7 @@
               "id": "t09",
               "name": "SK Gaming",
               "abbrev": "SK",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643979272144_SK_Monochrome.png",
               "players": [
                 { "id": "p0901", "name": "???", "role": "Top", "ratings": [6.5] },
                 { "id": "p0902", "name": "Skeanz", "role": "Jungle", "ratings": [6.3] },
@@ -120,6 +129,7 @@
               "id": "t10",
               "name": "Team BDS",
               "abbrev": "BDS",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png",
               "players": [
                 { "id": "p1001", "name": "Rooster", "role": "Top", "ratings": [6.6] },
                 { "id": "p1002", "name": "Boukada", "role": "Jungle", "ratings": [6.4] },
@@ -132,6 +142,7 @@
               "id": "t11",
               "name": "Team Heretics",
               "abbrev": "TH",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1672933861879_Heretics-Full-Color.png",
               "players": [
                 { "id": "p1101", "name": "Tracyn", "role": "Top", "ratings": [6.5] },
                 { "id": "p1102", "name": "Sheo", "role": "Jungle", "ratings": [6.3] },
@@ -144,6 +155,7 @@
               "id": "t12",
               "name": "Team Vitality",
               "abbrev": "VIT",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1675865863968_Vitality_FullColor.png",
               "players": [
                 { "id": "p1201", "name": "Naak Nako", "role": "Top", "ratings": [6.6] },
                 { "id": "p1202", "name": "Lyncas", "role": "Jungle", "ratings": [6.4] },
