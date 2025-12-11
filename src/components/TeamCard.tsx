@@ -1,5 +1,9 @@
 import styled from "styled-components";
-import type { Team } from "../types/Team";
+import type { Team } from "../types/Data";
+
+type TeamCardProps = {
+  team: Team;
+};
 
 const Card = styled.div`
   background-color: #111;
@@ -10,23 +14,44 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 `;
 
 const Name = styled.h2`
   font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 `;
 
 const Abbrev = styled.span`
   font-size: 0.9rem;
   color: #aaa;
+  margin-bottom: 0.5rem;
 `;
 
-export default function TeamCard({ team }: { team: Team }) {
+const PlayersList = styled.ul`
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ccc;
+`;
+
+const PlayerItem = styled.li`
+  margin: 0.2rem 0;
+`;
+
+export default function TeamCard({ team }: TeamCardProps) {
   return (
     <Card>
       <Name>{team.name}</Name>
-      <Abbrev>{team.abbrev}</Abbrev>
+      <Abbrev>({team.abbrev})</Abbrev>
+      <PlayersList>
+        {team.players.map(player => (
+          <PlayerItem key={player.id}>
+            {player.name} ({player.role})
+          </PlayerItem>
+        ))}
+      </PlayersList>
     </Card>
   );
 }

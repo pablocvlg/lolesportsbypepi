@@ -1,5 +1,10 @@
 import styled from "styled-components";
-import type { Match } from "../types/Match";
+import type { Match, Team } from "../types/Data";
+
+type MatchCardProps = {
+  match: Match;
+  teams: Team[];
+};
 
 const Card = styled.div`
   background-color: #111;
@@ -10,6 +15,7 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 `;
 
 const Teams = styled.h2`
@@ -28,12 +34,24 @@ const Score = styled.span`
   color: #00ff99;
 `;
 
-export default function MatchCard({ match }: { match: Match }) {
+const InfoText = styled.p`
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+`;
+
+export default function MatchCard({ match, teams }: MatchCardProps) {
+  const teamA = teams.find(t => t.id === match.teamA);
+  const teamB = teams.find(t => t.id === match.teamB);
+
+  if (!teamA || !teamB) return null;
+
   return (
     <Card>
-      <Teams>{match.teamA} vs {match.teamB}</Teams>
-      <DateText>{new Date(match.date).toLocaleString()}</DateText>
+      <Teams>{teamA.name} vs {teamB.name}</Teams>
+      <InfoText>Status: {match.status}</InfoText>
+      <InfoText>Stage: {match.stage}</InfoText>
       <Score>{match.score.teamA} - {match.score.teamB}</Score>
+      <DateText>{new Date(match.date).toLocaleString()}</DateText>
     </Card>
   );
 }
