@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { useData } from "../hooks/useData";
 import MatchCard from "../components/MatchCard";
 import type { Match, Team } from "../types/Data";
+import Loading from "../components/Loading";
 
 const Container = styled.div`
   padding: 2rem;
@@ -28,7 +29,7 @@ const CardsGrid = styled.div`
 export default function Matches() {
   const { data, loading, error } = useData();
 
-  if (loading) return <Container>Loading...</Container>;
+  if (loading) return <Loading text="Organising match schedule..." />;
   if (error) return <Container>{error}</Container>;
   if (!data) return <Container>No data available</Container>;
 

@@ -6,6 +6,7 @@ import Players from "./pages/Players";
 import Teams from "./pages/Teams";
 import Matches from "./pages/Matches";
 import Navbar from "./components/Navbar";
+import BottomSection from "./components/BottomSection";
 
 const GlobalStyle = createGlobalStyle`
   html, body, #root {
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="/teams" element={<Teams />} />
           <Route path="/matches" element={<Matches />} />
         </Routes>
+        <BottomSection />
         <Analytics />
       </Router>
     </>

@@ -54,7 +54,7 @@ const StandingsWrapper = styled.div`
 `;
 
 const BestPlayersWrapper = styled.div`
-  width: 500px;
+  width: 30rem;
   flex-shrink: 0;
 `;
 
