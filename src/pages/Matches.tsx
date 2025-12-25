@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { useData } from "../hooks/useData";
-import MatchCard from "../components/MatchCard";
+import MatchCard from "../components/matchespage/MatchCard";
 import type { Match, Team } from "../types/Data";
 import Loading from "../components/Loading";
 

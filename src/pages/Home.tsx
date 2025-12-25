@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { useData } from "../hooks/useData";
 import BestPlayers from "../components/homepage/BestPlayers";
 import Standings from "../components/homepage/Standings";
+import Loading from "../components/Loading";
 
 const Container = styled.div`
   padding: 2rem;
@@ -61,7 +62,7 @@ const BestPlayersWrapper = styled.div`
 export default function Home() {
   const { data, loading, error } = useData();
 
-  if (loading) return <Container>Loading...</Container>;
+  if (loading) return <Loading text="Preparing data…" />;
   if (error) return <Container>{error}</Container>;
   if (!data) return <Container>No data available</Container>;
 

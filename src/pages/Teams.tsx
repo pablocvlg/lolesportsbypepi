@@ -1,29 +1,21 @@
 import styled from "styled-components";
 import { useData } from "../hooks/useData";
-import TeamCard from "../components/TeamCard";
+import TeamCard from "../components/teamspage/TeamCard";
 import type { Team } from "../types/Data";
 import Loading from "../components/Loading";
 
 const Container = styled.div`
-  padding: 2rem;
+  padding: 2rem 0rem 2rem 0rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-  max-width: 1400px;
+  max-width: 100rem;
   margin: 0 auto;
-`;
-
-const SectionTitle = styled.h2`
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  color: #white;
 `;
 
 const CardsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  gap: 2rem;
 `;
 
 export default function Teams() {
@@ -39,7 +31,6 @@ export default function Teams() {
 
   return (
     <Container>
-      <SectionTitle>Teams</SectionTitle>
       <CardsGrid>
         {teams.map((team) => (
           <TeamCard key={team.id} team={team} />

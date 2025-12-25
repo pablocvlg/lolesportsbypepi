@@ -155,8 +155,8 @@
               "players": [
                 { "id": "p1101", "name": "Tracyn", "role": "Top", "ratings": [5] },
                 { "id": "p1102", "name": "Sheo", "role": "Jungle", "ratings": [7] },
-                { "id": "p1103", "name": "???", "role": "Mid", "ratings": [] },
-                { "id": "p1104", "name": "???", "role": "Bot", "ratings": [] },
+                { "id": "p1103", "name": "Serin", "role": "Mid", "ratings": [6] },
+                { "id": "p1104", "name": "Ice", "role": "Bot", "ratings": [6] },
                 { "id": "p1105", "name": "Stend", "role": "Support", "ratings": [4] }
               ],
               "drafts": []

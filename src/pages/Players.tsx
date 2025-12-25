@@ -1,22 +1,15 @@
 import styled from "styled-components";
 import { useData } from "../hooks/useData";
-import PlayerCard from "../components/PlayerCard";
+import PlayerCard from "../components/playerspage/PlayerCard";
 import Loading from "../components/Loading";
 
 const Container = styled.div`
-  padding: 2rem;
+  padding: 2rem 0rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-  max-width: 1400px;
+  gap: 1rem;
+  max-width: 50rem;
   margin: 0 auto;
-`;
-
-const SectionTitle = styled.h2`
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  color: #white;
 `;
 
 const CardsGrid = styled.div`
@@ -34,7 +27,6 @@ export default function Players() {
 
   return (
     <Container>
-      <SectionTitle>Players</SectionTitle>
       <CardsGrid>
           <PlayerCard />
       </CardsGrid>

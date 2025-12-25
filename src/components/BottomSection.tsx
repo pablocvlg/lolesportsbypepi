@@ -5,7 +5,7 @@ const Container = styled.footer`
   width: 100%;
   background-color: #222;
   color: #fff;
-  padding: 1rem 0rem;
+  padding: 0.8rem 0rem;
   font-size: 0.9rem;
   display: flex;
   flex-direction: column;
@@ -26,14 +26,14 @@ const BottomRow = styled.div`
 
 const Text = styled.p`
   margin: 0;
-  line-height: 1.4;
+  line-height: 1.3;
 `;
 
 export default function BottomSection() {
   return (
     <Container>
       <TopRow>
-        <Text>Created by ~ pepi ~<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in December 2025</Text>
+        <Text>Created by pepi<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in December 2025</Text>
         <Text>© 2025 LoL Esports by Pepi. All rights reserved.</Text>
       </TopRow>
       <BottomRow>

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import type { Match, Team } from "../types/Data";
+import type { Match, Team } from "../../types/Data";
 
 type MatchCardProps = {
   match: Match;
