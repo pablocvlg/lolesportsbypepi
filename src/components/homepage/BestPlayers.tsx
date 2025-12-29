@@ -5,13 +5,14 @@ import type { Player, Team } from "../../types/Data";
 const Container = styled.div`
   background: linear-gradient(135deg, #4e745eff 0%, #11251aff 100%);
   border-radius: 12px;
-  padding: 1.1rem;
+  padding: 1.25rem;
+  margin-top: 2rem;
 `;
 
 const Title = styled.h3`
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
-  margin: 0.3rem 0 1.5rem 0;
+  margin: 0.3rem 0 1.3rem 0;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 `;
@@ -19,7 +20,7 @@ const Title = styled.h3`
 const PlayersList = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
+  gap: 0.6rem;
 `;
 
 const PlayerCard = styled.div`
@@ -38,8 +39,8 @@ const PlayerCard = styled.div`
 `;
 
 const PlayerImage = styled.img`
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.25rem;
+  height: 2.25rem;
   object-fit: cover;
 `;
 

@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { useData } from "../hooks/useData";
 import BestPlayers from "../components/homepage/BestPlayers";
 import Standings from "../components/homepage/Standings";
+import UpcomingMatches from "../components/homepage/UpcomingMatches";
 import Loading from "../components/Loading";
 
 const Container = styled.div`
@@ -54,7 +55,7 @@ const StandingsWrapper = styled.div`
   min-width: 0;
 `;
 
-const BestPlayersWrapper = styled.div`
+const RightColumnWrapper = styled.div`
   width: 30rem;
   flex-shrink: 0;
 `;
@@ -81,9 +82,10 @@ export default function Home() {
                 <StandingsWrapper>
                   <Standings eventId="winter2026" />
                 </StandingsWrapper>
-                <BestPlayersWrapper>
+                <RightColumnWrapper>
+                  <UpcomingMatches />
                   <BestPlayers />
-                </BestPlayersWrapper>
+                </RightColumnWrapper>
               </ContentWrapper>
             </div>
           ))}

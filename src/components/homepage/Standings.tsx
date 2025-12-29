@@ -27,7 +27,6 @@ const Container = styled.div`
     Arial;
 `;
 
-/* Header row */
 const HeaderRow = styled.div`
   display: grid;
   grid-template-columns: 48px 1fr;
@@ -113,7 +112,6 @@ const RankCol = styled.div`
   font-size: 20px;
 `;
 
-/* rounded dark card containing logo/name/record */
 const TeamCard = styled.div`
   display: flex;
   align-items: center;
@@ -125,7 +123,6 @@ const TeamCard = styled.div`
   box-shadow: 0 2px 0 rgba(0,0,0,0.6) inset;
 `;
 
-/* left area with logo + name */
 const Left = styled.div`
   display: flex;
   align-items: center;
@@ -133,7 +130,6 @@ const Left = styled.div`
   min-width: 0;
 `;
 
-/* circular logo placeholder (if you have logos, replace background-image) */
 const Logo = styled.div<{ src?: string }>`
   width: 36px;
   height: 36px;
@@ -145,7 +141,6 @@ const Logo = styled.div<{ src?: string }>`
   display: inline-block;
 `;
 
-/* name styled like link with subtle underline */
 const TeamName = styled.a`
   color: #e6e6e6;
   font-weight: 600;
@@ -160,7 +155,6 @@ const TeamName = styled.a`
   }
 `;
 
-/* right area containing rating and record */
 const Right = styled.div`
   display: flex;
   align-items: center;
@@ -168,7 +162,6 @@ const Right = styled.div`
   min-width: 0;
 `;
 
-/* rating */
 const TeamRating = styled.div`
   width: 56px;
   text-align: center;
@@ -176,7 +169,6 @@ const TeamRating = styled.div`
   color: #2fb0ff; /* blue */
 `;
 
-/* wins-losses */
 const TeamRecord = styled.div`
   width: 110px;
   text-align: center;
@@ -184,7 +176,6 @@ const TeamRecord = styled.div`
   font-weight: 600;
 `;
 
-/* team abbreviation beneath name */
 const TeamMeta = styled.div`
   color: rgba(255, 255, 255, 0.45);
   font-size: 12px;

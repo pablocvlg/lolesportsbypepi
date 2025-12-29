@@ -1,4 +1,3 @@
-// MatchCard.tsx
 import styled from 'styled-components';
 import { useState } from 'react';
 
@@ -9,24 +8,27 @@ const MatchCardWrapper = styled.div`
 `;
 
 const MatchCardContainer = styled.div`
-  padding: 1rem;
+  padding: 0.75rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
   transition: background-color 0.2s;
-
   &:hover {
     background-color: #27272a;
   }
 `;
 
 const TimeText = styled.div`
-  width: 4rem;
-  font-size: 1.25rem;
+  width: 3rem;
+  font-size: 0.8rem;
   font-weight: 550;
   color: #acb3beff;
-  padding: 0rem 2.5rem 0rem 1rem;
+  padding: 0 0.7rem 0rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2;
 `;
 
 const TeamsContainer = styled.div`
@@ -34,26 +36,26 @@ const TeamsContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex: 1;
-  gap: 1.5rem;
+  gap: 0.75rem;
 `;
 
 const TeamSection = styled.div<{ $align?: 'left' | 'right' }>`
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  width: 8rem;
+  gap: 0.5rem;
+  width: 5rem;
   justify-content: ${props => props.$align === 'left' ? 'flex-end' : 'flex-start'};
 `;
 
 const TeamAbbrev = styled.span`
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 600;
-  padding: 0rem 0.5rem;
+  padding: 0 0.25rem;
 `;
 
 const TeamLogo = styled.img`
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   object-fit: contain;
 `;
 
@@ -61,7 +63,7 @@ const ScoreContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  min-width: 60px;
+  min-width: 40px;
   justify-content: center;
 `;
 
@@ -77,17 +79,19 @@ const ScoreSeparator = styled.span`
 
 const Slash = styled.span`
   color: #6b7280;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 `;
 
 const InfoSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   color: #acb3beff;
-  width: 8rem;
-  padding: 0rem 1rem 0rem 0rem;
+  width: 5rem;
+  padding: 0 0.5rem;
+  text-align: justify;
+  white-space: pre-line;
 `;
 
 const CommentsSection = styled.div<{ $isOpen: boolean }>`
@@ -104,14 +108,15 @@ const CommentsSection = styled.div<{ $isOpen: boolean }>`
   white-space: pre-line;
 `;
 
-interface MatchCardProps {
+interface UpcomingMatchCardProps {
   match: any;
   teamA: any;
   teamB: any;
   time: string;
+  date: string;
 }
 
-export default function MatchCard({ match, teamA, teamB, time }: MatchCardProps) {
+export default function UpcomingMatchCard({ match, teamA, teamB, time, date }: UpcomingMatchCardProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const isMatchPlayed = (): boolean => {
@@ -127,14 +132,17 @@ export default function MatchCard({ match, teamA, teamB, time }: MatchCardProps)
   return (
     <MatchCardWrapper>
       <MatchCardContainer onClick={toggleComments}>
-        <TimeText>{time}</TimeText>
-
+        <TimeText>
+          <span>{date}</span>
+          <span>{time}</span>
+        </TimeText>
+        
         <TeamsContainer>
           <TeamSection $align="left">
             <TeamAbbrev>{teamA?.abbrev}</TeamAbbrev>
             <TeamLogo src={teamA?.logo} alt={teamA?.name} />
           </TeamSection>
-
+          
           <ScoreContainer>
             {played ? (
               <>
@@ -146,19 +154,19 @@ export default function MatchCard({ match, teamA, teamB, time }: MatchCardProps)
               <Slash>/</Slash>
             )}
           </ScoreContainer>
-
+          
           <TeamSection $align="right">
             <TeamLogo src={teamB?.logo} alt={teamB?.name} />
             <TeamAbbrev>{teamB?.abbrev}</TeamAbbrev>
           </TeamSection>
         </TeamsContainer>
-
+        
         <InfoSection>
           <span>{match.stage}</span>
           <span>{match.phase}</span>
         </InfoSection>
       </MatchCardContainer>
-
+      
       <CommentsSection $isOpen={isOpen}>
         {match.comments || 'No comments available.'}
       </CommentsSection>
