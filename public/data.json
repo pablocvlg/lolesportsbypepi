@@ -84,7 +84,7 @@
               "abbrev": "LR",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1736206905390_LR1.png",
               "players": [
-                { "id": "p0601", "name": "Baus", "role": "Top", "ratings": [4,3] },
+                { "id": "p0601", "name": "Baus", "role": "Top", "ratings": [3,3] },
                 { "id": "p0602", "name": "Velja", "role": "Jungle", "ratings": [3,1] },
                 { "id": "p0603", "name": "Nemesis", "role": "Mid", "ratings": [3,5] },
                 { "id": "p0604", "name": "Crownie", "role": "Bot", "ratings": [4,4] },
@@ -112,13 +112,13 @@
               "abbrev": "NAVI",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1752746833620_NAVI_FullColor.png",
               "players": [
-                { "id": "p0801", "name": "Maynter", "role": "Top", "ratings": [5] },
-                { "id": "p0802", "name": "Rhilech", "role": "Jungle", "ratings": [5] },
-                { "id": "p0803", "name": "Poby", "role": "Mid", "ratings": [6] },
-                { "id": "p0804", "name": "SamD", "role": "Bot", "ratings": [4] },
-                { "id": "p0805", "name": "Parus", "role": "Support", "ratings": [6] }
+                { "id": "p0801", "name": "Maynter", "role": "Top", "ratings": [5,8] },
+                { "id": "p0802", "name": "Rhilech", "role": "Jungle", "ratings": [5,9] },
+                { "id": "p0803", "name": "Poby", "role": "Mid", "ratings": [6,9] },
+                { "id": "p0804", "name": "SamD", "role": "Bot", "ratings": [4,6] },
+                { "id": "p0805", "name": "Parus", "role": "Support", "ratings": [6,7] }
               ],
-              "drafts": []
+              "drafts": [3]
             },
             {
               "id": "t09",
@@ -154,13 +154,13 @@
               "abbrev": "TH",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1672933861879_Heretics-Full-Color.png",
               "players": [
-                { "id": "p1101", "name": "Tracyn", "role": "Top", "ratings": [4] },
-                { "id": "p1102", "name": "Sheo", "role": "Jungle", "ratings": [7] },
-                { "id": "p1103", "name": "Serin", "role": "Mid", "ratings": [5] },
-                { "id": "p1104", "name": "Ice", "role": "Bot", "ratings": [6] },
-                { "id": "p1105", "name": "Stend", "role": "Support", "ratings": [4] }
+                { "id": "p1101", "name": "Tracyn", "role": "Top", "ratings": [4,4] },
+                { "id": "p1102", "name": "Sheo", "role": "Jungle", "ratings": [7,6] },
+                { "id": "p1103", "name": "Serin", "role": "Mid", "ratings": [5,6] },
+                { "id": "p1104", "name": "Ice", "role": "Bot", "ratings": [6,6] },
+                { "id": "p1105", "name": "Stend", "role": "Support", "ratings": [4,2] }
               ],
-              "drafts": []
+              "drafts": [3]
             },
             {
               "id": "t12",
