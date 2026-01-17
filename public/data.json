@@ -14,13 +14,13 @@
               "abbrev": "FNC",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1631819669150_fnc-2021-worlds.png",
               "players": [
-                { "id": "p0101", "name": "Empyros", "role": "Top", "ratings": [4] },
-                { "id": "p0102", "name": "Razork", "role": "Jungle", "ratings": [8] },
-                { "id": "p0103", "name": "Vladi", "role": "Mid", "ratings": [7] },
-                { "id": "p0104", "name": "Upset", "role": "Bot", "ratings": [7] },
-                { "id": "p0105", "name": "Lospa", "role": "Support", "ratings": [6] }
+                { "id": "p0101", "name": "Empyros", "role": "Top", "ratings": [4,7] },
+                { "id": "p0102", "name": "Razork", "role": "Jungle", "ratings": [8,7] },
+                { "id": "p0103", "name": "Vladi", "role": "Mid", "ratings": [7,8] },
+                { "id": "p0104", "name": "Upset", "role": "Bot", "ratings": [7,7] },
+                { "id": "p0105", "name": "Lospa", "role": "Support", "ratings": [6,6] }
               ],
-              "drafts": []
+              "drafts": [2]
             },
             {
               "id": "t02",
@@ -83,13 +83,13 @@
               "abbrev": "LR",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1736206905390_LR1.png",
               "players": [
-                { "id": "p0601", "name": "Baus", "role": "Top", "ratings": [4] },
-                { "id": "p0602", "name": "Velja", "role": "Jungle", "ratings": [3] },
-                { "id": "p0603", "name": "Nemesis", "role": "Mid", "ratings": [3] },
-                { "id": "p0604", "name": "Crownie", "role": "Bot", "ratings": [4] },
-                { "id": "p0605", "name": "Rekkles", "role": "Support", "ratings": [3] }
+                { "id": "p0601", "name": "Baus", "role": "Top", "ratings": [4,3] },
+                { "id": "p0602", "name": "Velja", "role": "Jungle", "ratings": [3,1] },
+                { "id": "p0603", "name": "Nemesis", "role": "Mid", "ratings": [3,5] },
+                { "id": "p0604", "name": "Crownie", "role": "Bot", "ratings": [4,4] },
+                { "id": "p0605", "name": "Rekkles", "role": "Support", "ratings": [3,4] }
               ],
-              "drafts": []
+              "drafts": [1]
             },
             {
               "id": "t07",
