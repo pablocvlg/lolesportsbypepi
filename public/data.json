@@ -114,7 +114,7 @@
               "players": [
                 { "id": "p0801", "name": "Maynter", "role": "Top", "ratings": [5,8] },
                 { "id": "p0802", "name": "Rhilech", "role": "Jungle", "ratings": [5,9] },
-                { "id": "p0803", "name": "Poby", "role": "Mid", "ratings": [6,9] },
+                { "id": "p0803", "name": "Poby", "role": "Mid", "ratings": [6,8] },
                 { "id": "p0804", "name": "SamD", "role": "Bot", "ratings": [4,6] },
                 { "id": "p0805", "name": "Parus", "role": "Support", "ratings": [6,7] }
               ],
@@ -132,7 +132,7 @@
                 { "id": "p0904", "name": "Jopa", "role": "Bot", "ratings": [3] },
                 { "id": "p0905", "name": "Mikyx", "role": "Support", "ratings": [7] }
               ],
-              "drafts": []
+              "drafts": [2]
             },
             {
               "id": "t10",
@@ -174,7 +174,7 @@
                 { "id": "p1204", "name": "Carzzy", "role": "Bot", "ratings": [6] },
                 { "id": "p1205", "name": "Fleshy", "role": "Support", "ratings": [2] }
               ],
-              "drafts": []
+              "drafts": [2]
             }
           ],
           "matches": [
@@ -216,7 +216,7 @@
               "phase": "Week 1",
               "stage": "Regular Season",
               "comments": "VIT were already decent, and they got an upgrade in Mid. SK are in LEC for fun it seems. I don't except SK to win over anyone tbf. Easy win for VIT.",
-              "score": { "teamA":0,"teamB":0 }
+              "score": { "teamA":1,"teamB":0 }
             },
             {
               "id": "m05",
