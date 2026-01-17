@@ -42,12 +42,13 @@
               "abbrev": "GX",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1704790322129_GX.png",
               "players": [
-                { "id": "p0301", "name": "Lot", "role": "Top", "ratings": [6] },
-                { "id": "p0302", "name": "ISMA", "role": "Jungle", "ratings": [6] },
-                { "id": "p0303", "name": "Jackies", "role": "Mid", "ratings": [6] },
-                { "id": "p0304", "name": "Noah", "role": "Bot", "ratings": [8] },
-                { "id": "p0305", "name": "Jun", "role": "Support", "ratings": [9] }
-              ]
+                { "id": "p0301", "name": "Lot", "role": "Top", "ratings": [6,5] },
+                { "id": "p0302", "name": "ISMA", "role": "Jungle", "ratings": [6,4] },
+                { "id": "p0303", "name": "Jackies", "role": "Mid", "ratings": [6,4] },
+                { "id": "p0304", "name": "Noah", "role": "Bot", "ratings": [8,10] },
+                { "id": "p0305", "name": "Jun", "role": "Support", "ratings": [9,9] }
+              ],
+              "drafts": [1]
             },
             {
               "id": "t04",
@@ -139,13 +140,13 @@
               "abbrev": "SHFT",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1765897071435_600px-Shifters_allmode.png",
               "players": [
-                { "id": "p1001", "name": "Rooster", "role": "Top", "ratings": [6] },
-                { "id": "p1002", "name": "Boukada", "role": "Jungle", "ratings": [4] },
-                { "id": "p1003", "name": "nuc", "role": "Mid", "ratings": [5] },
-                { "id": "p1004", "name": "Paduck", "role": "Bot", "ratings": [4] },
-                { "id": "p1005", "name": "Trymbi", "role": "Support", "ratings": [5] }
+                { "id": "p1001", "name": "Rooster", "role": "Top", "ratings": [6,6] },
+                { "id": "p1002", "name": "Boukada", "role": "Jungle", "ratings": [4,4] },
+                { "id": "p1003", "name": "nuc", "role": "Mid", "ratings": [5,7] },
+                { "id": "p1004", "name": "Paduck", "role": "Bot", "ratings": [4,6] },
+                { "id": "p1005", "name": "Trymbi", "role": "Support", "ratings": [5,5] }
               ],
-              "drafts": []
+              "drafts": [3]
             },
             {
               "id": "t11",
@@ -195,7 +196,7 @@
               "phase": "Week 1",
               "stage": "Regular Season",
               "comments": "Shifters (Former BDS) have undergone many roster changes and are really mediocre in all their roles except maybe Top. GX mantained all their roster, have decent laners + jungle and their botside is really strong. Easy win for GX.",
-              "score": { "teamA":0,"teamB":0 }
+              "score": { "teamA":0,"teamB":1 }
             },
             {
               "id": "m03",
