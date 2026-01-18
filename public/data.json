@@ -226,7 +226,7 @@
               "phase": "Week 1",
               "stage": "Regular Season",
               "comments": "Main team vs Academy. Main team is top3 LEC while academy has multiple ERL 2 players. Completely one-sided match. KC rolls KCB hard.",
-              "score": { "teamA":0,"teamB":0 }
+              "score": { "teamA":0,"teamB":1 }
             },
             {
               "id": "m06",
@@ -236,7 +236,7 @@
               "phase": "Week 1",
               "stage": "Regular Season",
               "comments": "On paper, these 2 teams should be close. HOWEVER, MKOI took a break from training for the entire month of December (also their head coach said their focus is NOT performing in this first LEC split). They will most definitely not be in shape for the first LEC week.",
-              "score": { "teamA":0,"teamB":0 }
+              "score": { "teamA":1,"teamB":0 }
             },
             {
               "id": "m07",
