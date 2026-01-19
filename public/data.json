@@ -56,13 +56,13 @@
               "abbrev": "KC",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1704714951336_KC.png",
               "players": [
-                { "id": "p0401", "name": "Canna", "role": "Top", "ratings": [10,9] },
-                { "id": "p0402", "name": "Yike", "role": "Jungle", "ratings": [8,6] },
-                { "id": "p0403", "name": "Kyeahoo", "role": "Mid", "ratings": [5,8] },
-                { "id": "p0404", "name": "Caliste", "role": "Bot", "ratings": [8,10] },
-                { "id": "p0405", "name": "Busio", "role": "Support", "ratings": [8,5] }
+                { "id": "p0401", "name": "Canna", "role": "Top", "ratings": [10,9,8] },
+                { "id": "p0402", "name": "Yike", "role": "Jungle", "ratings": [8,6,5] },
+                { "id": "p0403", "name": "Kyeahoo", "role": "Mid", "ratings": [5,8,7] },
+                { "id": "p0404", "name": "Caliste", "role": "Bot", "ratings": [8,10,6] },
+                { "id": "p0405", "name": "Busio", "role": "Support", "ratings": [8,5,6] }
               ],
-              "drafts": [3]
+              "drafts": [3,1]
             },
             {
               "id": "t05",
@@ -98,13 +98,13 @@
               "abbrev": "MKOI",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1734012609283_MKOI_FullColor_Blue.png",
               "players": [
-                { "id": "p0701", "name": "Myrwn", "role": "Top", "ratings": [8,8] },
-                { "id": "p0702", "name": "Elyoya", "role": "Jungle", "ratings": [9,8] },
-                { "id": "p0703", "name": "Jojopyun", "role": "Mid", "ratings": [8,7] },
-                { "id": "p0704", "name": "Supa", "role": "Bot", "ratings": [9,8] },
-                { "id": "p0705", "name": "Alvaro", "role": "Support", "ratings": [9,6] }
+                { "id": "p0701", "name": "Myrwn", "role": "Top", "ratings": [8,8,9] },
+                { "id": "p0702", "name": "Elyoya", "role": "Jungle", "ratings": [9,8,9] },
+                { "id": "p0703", "name": "Jojopyun", "role": "Mid", "ratings": [8,7,2] },
+                { "id": "p0704", "name": "Supa", "role": "Bot", "ratings": [9,8,9] },
+                { "id": "p0705", "name": "Alvaro", "role": "Support", "ratings": [9,6,7] }
               ],
-              "drafts": [2]
+              "drafts": [2,3]
             },
             {
               "id": "t08",
