@@ -140,13 +140,13 @@
               "abbrev": "SHFT",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1765897071435_600px-Shifters_allmode.png",
               "players": [
-                { "id": "p1001", "name": "Rooster", "role": "Top", "ratings": [6,6] },
-                { "id": "p1002", "name": "Boukada", "role": "Jungle", "ratings": [4,4] },
-                { "id": "p1003", "name": "nuc", "role": "Mid", "ratings": [5,7] },
-                { "id": "p1004", "name": "Paduck", "role": "Bot", "ratings": [4,6] },
-                { "id": "p1005", "name": "Trymbi", "role": "Support", "ratings": [5,5] }
+                { "id": "p1001", "name": "Rooster", "role": "Top", "ratings": [6,6,7] },
+                { "id": "p1002", "name": "Boukada", "role": "Jungle", "ratings": [4,4,6] },
+                { "id": "p1003", "name": "nuc", "role": "Mid", "ratings": [5,7,10] },
+                { "id": "p1004", "name": "Paduck", "role": "Bot", "ratings": [4,6,8] },
+                { "id": "p1005", "name": "Trymbi", "role": "Support", "ratings": [5,5,3] }
               ],
-              "drafts": [3]
+              "drafts": [3,3]
             },
             {
               "id": "t11",
@@ -154,13 +154,13 @@
               "abbrev": "TH",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1672933861879_Heretics-Full-Color.png",
               "players": [
-                { "id": "p1101", "name": "Tracyn", "role": "Top", "ratings": [4,4] },
-                { "id": "p1102", "name": "Sheo", "role": "Jungle", "ratings": [7,6] },
-                { "id": "p1103", "name": "Serin", "role": "Mid", "ratings": [5,6] },
-                { "id": "p1104", "name": "Ice", "role": "Bot", "ratings": [6,6] },
-                { "id": "p1105", "name": "Stend", "role": "Support", "ratings": [4,2] }
+                { "id": "p1101", "name": "Tracyn", "role": "Top", "ratings": [4,4,6] },
+                { "id": "p1102", "name": "Sheo", "role": "Jungle", "ratings": [7,6,5] },
+                { "id": "p1103", "name": "Serin", "role": "Mid", "ratings": [5,6,4] },
+                { "id": "p1104", "name": "Ice", "role": "Bot", "ratings": [6,6,4] },
+                { "id": "p1105", "name": "Stend", "role": "Support", "ratings": [4,2,0] }
               ],
-              "drafts": [3]
+              "drafts": [3,3]
             },
             {
               "id": "t12",
