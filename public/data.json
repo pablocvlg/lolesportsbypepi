@@ -296,7 +296,7 @@
               "phase": "Week 1",
               "stage": "Regular Season",
               "comments": "",
-              "score": { "teamA":0,"teamB":0 }
+              "score": { "teamA":1,"teamB":0 }
             },
             {
               "id": "m13",
