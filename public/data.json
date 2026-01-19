@@ -28,13 +28,13 @@
               "abbrev": "G2",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2FG2-FullonDark.png",
               "players": [
-                { "id": "p0201", "name": "BrokenBlade", "role": "Top", "ratings": [9,4] },
-                { "id": "p0202", "name": "SkewMond", "role": "Jungle", "ratings": [9,6] },
-                { "id": "p0203", "name": "Caps", "role": "Mid", "ratings": [9,4] },
-                { "id": "p0204", "name": "Hans Sama", "role": "Bot", "ratings": [9,5] },
-                { "id": "p0205", "name": "Labrov", "role": "Support", "ratings": [8,5] }
+                { "id": "p0201", "name": "BrokenBlade", "role": "Top", "ratings": [9,4,8] },
+                { "id": "p0202", "name": "SkewMond", "role": "Jungle", "ratings": [9,6,4] },
+                { "id": "p0203", "name": "Caps", "role": "Mid", "ratings": [9,4,4] },
+                { "id": "p0204", "name": "Hans Sama", "role": "Bot", "ratings": [9,5,4] },
+                { "id": "p0205", "name": "Labrov", "role": "Support", "ratings": [8,5,1] }
               ],
-              "drafts": [2]
+              "drafts": [2,3]
             },
             {
               "id": "t03",
@@ -42,13 +42,13 @@
               "abbrev": "GX",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1704790322129_GX.png",
               "players": [
-                { "id": "p0301", "name": "Lot", "role": "Top", "ratings": [6,5] },
-                { "id": "p0302", "name": "ISMA", "role": "Jungle", "ratings": [6,4] },
-                { "id": "p0303", "name": "Jackies", "role": "Mid", "ratings": [6,4] },
-                { "id": "p0304", "name": "Noah", "role": "Bot", "ratings": [8,10] },
-                { "id": "p0305", "name": "Jun", "role": "Support", "ratings": [9,9] }
+                { "id": "p0301", "name": "Lot", "role": "Top", "ratings": [6,5,6] },
+                { "id": "p0302", "name": "ISMA", "role": "Jungle", "ratings": [6,4,9] },
+                { "id": "p0303", "name": "Jackies", "role": "Mid", "ratings": [6,4,8] },
+                { "id": "p0304", "name": "Noah", "role": "Bot", "ratings": [8,10,10] },
+                { "id": "p0305", "name": "Jun", "role": "Support", "ratings": [9,9,2] }
               ],
-              "drafts": [1]
+              "drafts": [1,2]
             },
             {
               "id": "t04",
