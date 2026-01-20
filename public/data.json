@@ -28,13 +28,13 @@
               "abbrev": "G2",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2FG2-FullonDark.png",
               "players": [
-                { "id": "p0201", "name": "BrokenBlade", "role": "Top", "ratings": [9,4,8] },
-                { "id": "p0202", "name": "SkewMond", "role": "Jungle", "ratings": [9,6,4] },
-                { "id": "p0203", "name": "Caps", "role": "Mid", "ratings": [9,4,4] },
-                { "id": "p0204", "name": "Hans Sama", "role": "Bot", "ratings": [9,5,4] },
-                { "id": "p0205", "name": "Labrov", "role": "Support", "ratings": [8,5,1] }
+                { "id": "p0201", "name": "BrokenBlade", "role": "Top", "ratings": [9,4,8,7] },
+                { "id": "p0202", "name": "SkewMond", "role": "Jungle", "ratings": [9,6,4,8] },
+                { "id": "p0203", "name": "Caps", "role": "Mid", "ratings": [9,4,4,8] },
+                { "id": "p0204", "name": "Hans Sama", "role": "Bot", "ratings": [9,5,4,9] },
+                { "id": "p0205", "name": "Labrov", "role": "Support", "ratings": [8,5,1,8] }
               ],
-              "drafts": [2,3]
+              "drafts": [2,3,3]
             },
             {
               "id": "t03",
@@ -126,13 +126,13 @@
               "abbrev": "SK",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643979272144_SK_Monochrome.png",
               "players": [
-                { "id": "p0901", "name": "Wunder", "role": "Top", "ratings": [3,2,9] },
-                { "id": "p0902", "name": "Skeanz", "role": "Jungle", "ratings": [2,4,10] },
-                { "id": "p0903", "name": "LIDER", "role": "Mid", "ratings": [5,6,8] },
-                { "id": "p0904", "name": "Jopa", "role": "Bot", "ratings": [3,4,10] },
-                { "id": "p0905", "name": "Mikyx", "role": "Support", "ratings": [7,9,6] }
+                { "id": "p0901", "name": "Wunder", "role": "Top", "ratings": [3,2,9,7] },
+                { "id": "p0902", "name": "Skeanz", "role": "Jungle", "ratings": [2,4,10,5] },
+                { "id": "p0903", "name": "LIDER", "role": "Mid", "ratings": [5,6,8,0] },
+                { "id": "p0904", "name": "Jopa", "role": "Bot", "ratings": [3,4,10,5] },
+                { "id": "p0905", "name": "Mikyx", "role": "Support", "ratings": [7,9,6,2] }
               ],
-              "drafts": [1,1]
+              "drafts": [1,1,1]
             },
             {
               "id": "t10",
@@ -356,7 +356,7 @@
               "phase": "Week 1",
               "stage": "Regular Season",
               "comments": "",
-              "score": { "teamA":0,"teamB":0 }
+              "score": { "teamA":0,"teamB":1 }
             },
             {
               "id": "m19",
