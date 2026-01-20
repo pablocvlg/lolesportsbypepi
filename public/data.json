@@ -42,13 +42,13 @@
               "abbrev": "GX",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1704790322129_GX.png",
               "players": [
-                { "id": "p0301", "name": "Lot", "role": "Top", "ratings": [6,5,6] },
-                { "id": "p0302", "name": "ISMA", "role": "Jungle", "ratings": [6,4,9] },
-                { "id": "p0303", "name": "Jackies", "role": "Mid", "ratings": [6,4,8] },
-                { "id": "p0304", "name": "Noah", "role": "Bot", "ratings": [8,10,10] },
-                { "id": "p0305", "name": "Jun", "role": "Support", "ratings": [9,9,2] }
+                { "id": "p0301", "name": "Lot", "role": "Top", "ratings": [6,5,6,2] },
+                { "id": "p0302", "name": "ISMA", "role": "Jungle", "ratings": [6,4,9,0] },
+                { "id": "p0303", "name": "Jackies", "role": "Mid", "ratings": [6,4,8,3] },
+                { "id": "p0304", "name": "Noah", "role": "Bot", "ratings": [8,10,10,7] },
+                { "id": "p0305", "name": "Jun", "role": "Support", "ratings": [9,9,2,5] }
               ],
-              "drafts": [1,2]
+              "drafts": [1,2,1]
             },
             {
               "id": "t04",
@@ -154,13 +154,13 @@
               "abbrev": "TH",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1672933861879_Heretics-Full-Color.png",
               "players": [
-                { "id": "p1101", "name": "Tracyn", "role": "Top", "ratings": [4,4,6] },
-                { "id": "p1102", "name": "Sheo", "role": "Jungle", "ratings": [7,6,5] },
-                { "id": "p1103", "name": "Serin", "role": "Mid", "ratings": [5,6,5] },
-                { "id": "p1104", "name": "Ice", "role": "Bot", "ratings": [6,6,4] },
-                { "id": "p1105", "name": "Stend", "role": "Support", "ratings": [4,2,0] }
+                { "id": "p1101", "name": "Tracyn", "role": "Top", "ratings": [4,4,6,9] },
+                { "id": "p1102", "name": "Sheo", "role": "Jungle", "ratings": [7,6,5,6] },
+                { "id": "p1103", "name": "Serin", "role": "Mid", "ratings": [5,6,5,6] },
+                { "id": "p1104", "name": "Ice", "role": "Bot", "ratings": [6,6,4,8] },
+                { "id": "p1105", "name": "Stend", "role": "Support", "ratings": [4,2,0,6] }
               ],
-              "drafts": [3,2]
+              "drafts": [3,2,3]
             },
             {
               "id": "t12",
@@ -306,7 +306,7 @@
               "phase": "Week 1",
               "stage": "Regular Season",
               "comments": "",
-              "score": { "teamA":0,"teamB":0 }
+              "score": { "teamA":0,"teamB":1 }
             },
             {
               "id": "m14",
@@ -316,7 +316,7 @@
               "phase": "Week 1",
               "stage": "Regular Season",
               "comments": "",
-              "score": { "teamA":0,"teamB":0 }
+              "score": { "teamA":1,"teamB":0 }
             },
             {
               "id": "m15",
@@ -326,7 +326,7 @@
               "phase": "Week 1",
               "stage": "Regular Season",
               "comments": "",
-              "score": { "teamA":0,"teamB":0 }
+              "score": { "teamA":1,"teamB":0 }
             },
             {
               "id": "m16",
