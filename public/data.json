@@ -56,13 +56,13 @@
               "abbrev": "KC",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1704714951336_KC.png",
               "players": [
-                { "id": "p0401", "name": "Canna", "role": "Top", "ratings": [10,9,8] },
-                { "id": "p0402", "name": "Yike", "role": "Jungle", "ratings": [8,6,5] },
-                { "id": "p0403", "name": "Kyeahoo", "role": "Mid", "ratings": [5,8,7] },
-                { "id": "p0404", "name": "Caliste", "role": "Bot", "ratings": [8,10,6] },
-                { "id": "p0405", "name": "Busio", "role": "Support", "ratings": [8,5,6] }
+                { "id": "p0401", "name": "Canna", "role": "Top", "ratings": [10,9,8,4] },
+                { "id": "p0402", "name": "Yike", "role": "Jungle", "ratings": [8,6,5,5] },
+                { "id": "p0403", "name": "Kyeahoo", "role": "Mid", "ratings": [5,8,7,9] },
+                { "id": "p0404", "name": "Caliste", "role": "Bot", "ratings": [8,10,6,8] },
+                { "id": "p0405", "name": "Busio", "role": "Support", "ratings": [8,5,6,8] }
               ],
-              "drafts": [3,1]
+              "drafts": [3,1,3]
             },
             {
               "id": "t05",
@@ -84,13 +84,13 @@
               "abbrev": "LR",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1736206905390_LR1.png",
               "players": [
-                { "id": "p0601", "name": "Baus", "role": "Top", "ratings": [3,3,4] },
-                { "id": "p0602", "name": "Velja", "role": "Jungle", "ratings": [3,1,3] },
-                { "id": "p0603", "name": "Nemesis", "role": "Mid", "ratings": [3,5,2] },
-                { "id": "p0604", "name": "Crownie", "role": "Bot", "ratings": [4,4,0] },
-                { "id": "p0605", "name": "Rekkles", "role": "Support", "ratings": [3,4,5] }
+                { "id": "p0601", "name": "Baus", "role": "Top", "ratings": [3,3,4,1] },
+                { "id": "p0602", "name": "Velja", "role": "Jungle", "ratings": [3,1,3,7] },
+                { "id": "p0603", "name": "Nemesis", "role": "Mid", "ratings": [3,5,2,9] },
+                { "id": "p0604", "name": "Crownie", "role": "Bot", "ratings": [4,4,0,5] },
+                { "id": "p0605", "name": "Rekkles", "role": "Support", "ratings": [3,4,5,3] }
               ],
-              "drafts": [1,2]
+              "drafts": [1,2,2]
             },
             {
               "id": "t07",
@@ -98,13 +98,13 @@
               "abbrev": "MKOI",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1734012609283_MKOI_FullColor_Blue.png",
               "players": [
-                { "id": "p0701", "name": "Myrwn", "role": "Top", "ratings": [8,8,9] },
-                { "id": "p0702", "name": "Elyoya", "role": "Jungle", "ratings": [9,8,9] },
-                { "id": "p0703", "name": "Jojopyun", "role": "Mid", "ratings": [8,7,2] },
-                { "id": "p0704", "name": "Supa", "role": "Bot", "ratings": [9,8,9] },
-                { "id": "p0705", "name": "Alvaro", "role": "Support", "ratings": [9,6,7] }
+                { "id": "p0701", "name": "Myrwn", "role": "Top", "ratings": [8,8,9,8] },
+                { "id": "p0702", "name": "Elyoya", "role": "Jungle", "ratings": [9,8,9,6] },
+                { "id": "p0703", "name": "Jojopyun", "role": "Mid", "ratings": [8,7,2,0] },
+                { "id": "p0704", "name": "Supa", "role": "Bot", "ratings": [9,8,9,2] },
+                { "id": "p0705", "name": "Alvaro", "role": "Support", "ratings": [9,6,7,0] }
               ],
-              "drafts": [2,3]
+              "drafts": [2,3,2]
             },
             {
               "id": "t08",
@@ -140,13 +140,13 @@
               "abbrev": "SHFT",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1765897071435_600px-Shifters_allmode.png",
               "players": [
-                { "id": "p1001", "name": "Rooster", "role": "Top", "ratings": [6,6,7] },
-                { "id": "p1002", "name": "Boukada", "role": "Jungle", "ratings": [4,4,6] },
-                { "id": "p1003", "name": "nuc", "role": "Mid", "ratings": [5,7,10] },
-                { "id": "p1004", "name": "Paduck", "role": "Bot", "ratings": [4,6,8] },
-                { "id": "p1005", "name": "Trymbi", "role": "Support", "ratings": [5,5,3] }
+                { "id": "p1001", "name": "Rooster", "role": "Top", "ratings": [6,6,7,9] },
+                { "id": "p1002", "name": "Boukada", "role": "Jungle", "ratings": [4,4,6,10] },
+                { "id": "p1003", "name": "nuc", "role": "Mid", "ratings": [5,7,10,8] },
+                { "id": "p1004", "name": "Paduck", "role": "Bot", "ratings": [4,6,8,8] },
+                { "id": "p1005", "name": "Trymbi", "role": "Support", "ratings": [5,5,3,10] }
               ],
-              "drafts": [3,3]
+              "drafts": [3,3,1]
             },
             {
               "id": "t11",
@@ -336,7 +336,7 @@
               "phase": "Week 1",
               "stage": "Regular Season",
               "comments": "",
-              "score": { "teamA":0,"teamB":0 }
+              "score": { "teamA":1,"teamB":0 }
             },
             {
               "id": "m17",
@@ -346,7 +346,7 @@
               "phase": "Week 1",
               "stage": "Regular Season",
               "comments": "",
-              "score": { "teamA":0,"teamB":0 }
+              "score": { "teamA":0,"teamB":1 }
             },
             {
               "id": "m18",
